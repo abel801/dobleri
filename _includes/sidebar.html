@@ -1,11 +1,16 @@
 
-<h3>About Me</h3>
-<p>Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien.\
- Duis feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convalli\
-s a varius vitae, facilisis eget magna.</p>
+<h3>Interes Actuales</h3>
+        <ul>
+          <li>Arquitectura Web</li>
+          <li>Jakyll</li>
+          <li>Obtimizacion en el desarrollo web</li>
+          <li>Git y Github</li>
+        </ul>
+
 
 <hr noshade size=7>
-<h3> Recent Posts</h3>
+<h3>Posts Recientes </h3>
+
 <ul>
   {% for post in site.posts limit: 5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -13,5 +18,13 @@ s a varius vitae, facilisis eget magna.</p>
 </ul>
 <hr noshade size=7>
 <h3> Contactame</h3>
-<a target="blanck" href="https://www.facebook.com/abimael.riveros/">Facebook</a></p>
+  <section id="social">
+    <a id="email" href="mailto:{{ site.author.email }}">E-mail</a>
+    <a id="github" href="https://github.com/devabimael" alt="github" target="_blanck">GitHub</a>
+    <a id="twitter" href="https:twitter.com/abimaelriveros" alt="twitter" target="_blanck">Twitter</a>
+    <a id="facebook" href="https://www.facebook.com/abimael.riveros" alt="facebook" target="_blanck">Facebook</a>
+
+
+  </section>
+
 
