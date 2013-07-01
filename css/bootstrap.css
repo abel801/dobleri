@@ -6168,3 +6168,31 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+
+
+#social {
+float:left;
+padding-right: 110px;
+padding-top:10px;
+}
+#facebook {
+background: url("../../img/social.png") repeat scroll 223px 0 transparent;
+}
+#email {
+background: url("../../img/social.png") repeat scroll 64px 0 transparent;
+}
+#social a {
+display: inline-block;
+    height: 30px;
+    margin-right: 12px;
+    text-indent: -9999em;
+    width: 30px;
+}
+#twitter {
+background:url("../../img/social.png") repeat scroll  0 0 transparent;
+}
+#github {
+background:url("../../img/social.png") repeat scroll -96px 0 transparent;
+}
+
