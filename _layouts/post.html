@@ -1,8 +1,6 @@
 ---
-layout: default 
-
+layout: default
 ---
-{% for post in site.posts limit: 10 %}
 {% include header.html %}
 
 <div class="row-fluid">
@@ -11,11 +9,12 @@ layout: default
     <p class="muted">{{ page.date | date_to_long_string }}</p>
 
     {{ content }}
+   {% include comments.html %}
   </div>
   <div class="span4">
     {% include sidebar.html %}
   </div>
 </div>
 
-{% endfor %}
+{% include footer.html %}
 
