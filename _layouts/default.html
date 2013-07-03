@@ -1,10 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title> {% if page.title %} {{ page.title }} | {% endif %}Web Developer </title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/animate.css" />
 
-{% include header.html %}
+  
+</head>
+<body>
+
+  <div id="container">
+  
+<div id="header">
+    <nav role="navigation">
+      <ul>
+        <li><a href="/">INICIO</a></li>
+        <li><a href="/about">SOBRE</a></li>
+        <li><a href="/blog/" alt="blog">GITHUB</a></li>
+
+      </ul>
+    </nav>
+</div> 
+    <div id="content">
 <div class="row-fluid">
 <div class="span8">
-{{ content}}
+{{ content }}
 </div>
 <div class="span4">
 {% include sidebar.html %}
 </div>
 </div>
+
+    </div>
+    <div id="footer">
+      <p>Copyright © 2013 Abimael riveros | Hosted by <a target="blanck" href="http://github.com/devabimael/">GitHub</a></p> 
+ 
+   </div>
+ 
+  </div>
+</body>
+</html>
+
