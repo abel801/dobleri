@@ -1,0 +1,155 @@
+
+body {
+  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
+  background:white ;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ececec;
+  text-decoration: underline;
+}
+
+#container {
+  width: 100%;
+}
+#header {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  display:table;
+  height: 80px;
+  padding-left: 40px;
+}
+h1 {
+  margin: 0;
+}
+
+nav ul, ul.entries {
+ list-style-type: none;
+  padding: 0 0 0 10px;
+}
+nav li a {
+  float:left;
+  margin: 5px;
+  margin-left: 20px;
+  font-family: arial;
+  font-size: 14px;
+  padding-top: 40px;
+
+}
+#content {
+ height: 0 auto;
+ color: #444444;
+ padding-bottom: 40px;
+ padding-top: 20px;
+ min-height: 500px;
+ padding-left: 140px;
+
+
+}
+#content a {
+color: #4A75B5;
+}
+
+ul.entries li {
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ececec;
+  width: 800px;
+}
+
+#content h3 {
+text-transform:capitalize;
+font-size:26px;
+
+}
+section#content article .post h3 {
+text-transport:uppercase;
+font-size: 2.5em;
+color: red;
+}
+#footer {
+  clear: both;
+  font-size: 0.65em;
+  text-align: center;
+  width:100%;
+  height: 100px;
+  background-color: black;
+  color:white;
+  display: block;
+  padding-top: 20px;
+}
+#footer a{
+color: peru;
+}
+.post h2 {
+font-size:25px;
+text-transform:uppercase;
+}
+#content ul li {
+margin-left:30px;
+}
+#content .post h3 a {
+font-size:25px;
+color:#444444;
+}
+#content .post h3 a:hover {
+color:#4A75B5;
+}
+#header ul li a:hover {
+color:#578DAC;
+}
+.row-fluid{
+}
+.span8 {
+float:left;
+width:60%;
+}
+.span4 {
+float:left;
+width:30%;
+padding-left:100px;
+}
+.content {
+text-align:justify;
+}
+.content img {
+float:right;
+margin-left:20px;
+margin-top:25px;
+}
+#social {
+float: left;
+margin-left:15px;
+}
+#facebook {
+background: url("../../img/social.png") repeat scroll 223px 0 transparent;
+}
+#email {
+background: url("../../img/social.png") repeat scroll 64px 0 transparent;
+}
+#social a {
+display: inline-block;
+    height: 30px;
+    margin-right: 12px;
+    text-indent: -9999em;
+    width: 30px;
+}
+#twitter {
+background:url("../../img/social.png") repeat scroll  0 0 transparent;
+}
+#github {
+background:url("../../img/social.png") repeat scroll -96px 0 transparent;
+
