@@ -134,7 +134,7 @@ float: left;
 margin-left:15px;
 }
 #facebook {
-background: url("{{ site.baseurl }}{{ post.url }}../../img/social.png") repeat scroll 223px 0 transparent;
+background: url("{{ site.baseurl }}../../img/social.png") repeat scroll 223px 0 transparent;
 }
 #email {
 background: url("../../img/social.png") repeat scroll 64px 0 transparent;
