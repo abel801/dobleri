@@ -1,5 +1,4 @@
-
-body {
+/body {
   font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
   background:white ;
   color: white;
@@ -33,6 +32,9 @@ a:hover {
 }
 h1 {
   margin: 0;
+  color:#000;
+  font-size:2em;
+  font-weight:normal;
 }
 
 nav ul, ul.entries {
@@ -73,6 +75,8 @@ ul.entries li {
 #content h3 {
 text-transform:capitalize;
 font-size:26px;
+font-weight:normal;
+color:#000;
 
 }
 section#content article .post h3 {
@@ -135,10 +139,10 @@ float: left;
 margin-left:15px;
 }
 #facebook {
-background: url("../../img/social.png") repeat scroll 223px 0 transparent;
+background: url("../img/social.png") repeat scroll 223px 0 transparent;
 }
 #email {
-background: url("../../img/social.png") repeat scroll 64px 0 transparent;
+background: url("../img/social.png") repeat scroll 64px 0 transparent;
 }
 #social a {
 display: inline-block;
@@ -148,8 +152,8 @@ display: inline-block;
     width: 30px;
 }
 #twitter {
-background:url("../../img/social.png") repeat scroll  0 0 transparent;
+background:url("../img/social.png") repeat scroll  0 0 transparent;
 }
 #github {
-background:url("../../img/social.png") repeat scroll -96px 0 transparent;
+background:url("../img/social.png") repeat scroll -96px 0 transparent;
 
