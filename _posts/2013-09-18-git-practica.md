@@ -1,5 +1,5 @@
 ---
-title: Consectetur Elit
+title: Cómo usar Git 
 layout: post
 ---
 
